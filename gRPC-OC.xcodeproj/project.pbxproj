@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D2BAAFE445D1F5596E3E230 /* Pods_gRPC_OC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B10D0EEB9B28F2470CA396C /* Pods_gRPC_OC.framework */; };
 		E9BEEDA726F2E97A004DAB2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BEEDA626F2E97A004DAB2D /* AppDelegate.m */; };
 		E9BEEDAA26F2E97A004DAB2D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BEEDA926F2E97A004DAB2D /* SceneDelegate.m */; };
 		E9BEEDAD26F2E97A004DAB2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BEEDAC26F2E97A004DAB2D /* ViewController.m */; };
@@ -14,9 +15,13 @@
 		E9BEEDB226F2E97B004DAB2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9BEEDB126F2E97B004DAB2D /* Assets.xcassets */; };
 		E9BEEDB526F2E97B004DAB2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9BEEDB326F2E97B004DAB2D /* LaunchScreen.storyboard */; };
 		E9BEEDB826F2E97B004DAB2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BEEDB726F2E97B004DAB2D /* main.m */; };
+		E9BEEDC026F2F21A004DAB2D /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BEEDBF26F2F21A004DAB2D /* Server.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D92AA628400B5BF648FE970 /* Pods-gRPC-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gRPC-OC.release.xcconfig"; path = "Target Support Files/Pods-gRPC-OC/Pods-gRPC-OC.release.xcconfig"; sourceTree = "<group>"; };
+		4B10D0EEB9B28F2470CA396C /* Pods_gRPC_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gRPC_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51EDC53220CADAEC67250D2 /* Pods-gRPC-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gRPC-OC.debug.xcconfig"; path = "Target Support Files/Pods-gRPC-OC/Pods-gRPC-OC.debug.xcconfig"; sourceTree = "<group>"; };
 		E9BEEDA226F2E97A004DAB2D /* gRPC-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gRPC-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BEEDA526F2E97A004DAB2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E9BEEDA626F2E97A004DAB2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +34,8 @@
 		E9BEEDB426F2E97B004DAB2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9BEEDB626F2E97B004DAB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9BEEDB726F2E97B004DAB2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9BEEDBE26F2F21A004DAB2D /* Server.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		E9BEEDBF26F2F21A004DAB2D /* Server.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D2BAAFE445D1F5596E3E230 /* Pods_gRPC_OC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		834A46149A6E3508A605CE4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B10D0EEB9B28F2470CA396C /* Pods_gRPC_OC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8ED3D8DFA6E634C194185BB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B51EDC53220CADAEC67250D2 /* Pods-gRPC-OC.debug.xcconfig */,
+				3D92AA628400B5BF648FE970 /* Pods-gRPC-OC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E9BEED9926F2E979004DAB2D = {
 			isa = PBXGroup;
 			children = (
 				E9BEEDA426F2E97A004DAB2D /* gRPC-OC */,
 				E9BEEDA326F2E97A004DAB2D /* Products */,
+				8ED3D8DFA6E634C194185BB8 /* Pods */,
+				834A46149A6E3508A605CE4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +94,8 @@
 				E9BEEDA926F2E97A004DAB2D /* SceneDelegate.m */,
 				E9BEEDAB26F2E97A004DAB2D /* ViewController.h */,
 				E9BEEDAC26F2E97A004DAB2D /* ViewController.m */,
+				E9BEEDBE26F2F21A004DAB2D /* Server.h */,
+				E9BEEDBF26F2F21A004DAB2D /* Server.m */,
 				E9BEEDAE26F2E97A004DAB2D /* Main.storyboard */,
 				E9BEEDB126F2E97B004DAB2D /* Assets.xcassets */,
 				E9BEEDB326F2E97B004DAB2D /* LaunchScreen.storyboard */,
@@ -83,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9BEEDBB26F2E97B004DAB2D /* Build configuration list for PBXNativeTarget "gRPC-OC" */;
 			buildPhases = (
+				D6F923648DA560B917BB22EB /* [CP] Check Pods Manifest.lock */,
 				E9BEED9E26F2E97A004DAB2D /* Sources */,
 				E9BEED9F26F2E97A004DAB2D /* Frameworks */,
 				E9BEEDA026F2E97A004DAB2D /* Resources */,
+				5C2735D2D1A24E9F9D5AF9F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,6 +171,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5C2735D2D1A24E9F9D5AF9F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gRPC-OC/Pods-gRPC-OC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gRPC-OC/Pods-gRPC-OC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gRPC-OC/Pods-gRPC-OC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6F923648DA560B917BB22EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gRPC-OC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E9BEED9E26F2E97A004DAB2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -149,6 +222,7 @@
 				E9BEEDA726F2E97A004DAB2D /* AppDelegate.m in Sources */,
 				E9BEEDB826F2E97B004DAB2D /* main.m in Sources */,
 				E9BEEDAA26F2E97A004DAB2D /* SceneDelegate.m in Sources */,
+				E9BEEDC026F2F21A004DAB2D /* Server.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +362,7 @@
 		};
 		E9BEEDBC26F2E97B004DAB2D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B51EDC53220CADAEC67250D2 /* Pods-gRPC-OC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +381,7 @@
 		};
 		E9BEEDBD26F2E97B004DAB2D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D92AA628400B5BF648FE970 /* Pods-gRPC-OC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
