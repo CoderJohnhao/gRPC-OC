@@ -20,9 +20,14 @@ message UploadRequest {
     string type = 3;
 }
 
+message UploadResponse {
+    string name = 1;
+    bytes data = 2;
+}
+
 service HelloServer {
     rpc Hello (HelloRequest) returns (HelloResponse) {}
     rpc Test (TestRequest) returns (HelloResponse) {}
-    rpc Upload (UploadRequest) returns (HelloResponse) {}
+    rpc Upload (UploadRequest) returns (UploadResponse) {}
 }
 

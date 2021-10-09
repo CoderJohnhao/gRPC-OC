@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1D2BAAFE445D1F5596E3E230 /* Pods_gRPC_OC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B10D0EEB9B28F2470CA396C /* Pods_gRPC_OC.framework */; };
+		E90E37F127058D8B00EFECAB /* featrue.proto in Sources */ = {isa = PBXBuildFile; fileRef = E90E37F027058D8B00EFECAB /* featrue.proto */; };
+		E93DF2D126FDC1EB0078D178 /* helloworld.proto in Sources */ = {isa = PBXBuildFile; fileRef = E93DF2D026FDC1EB0078D178 /* helloworld.proto */; };
+		E93DF2D326FDC6EC0078D178 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E93DF2D226FDC6EC0078D178 /* 1.png */; };
 		E9BEEDA726F2E97A004DAB2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BEEDA626F2E97A004DAB2D /* AppDelegate.m */; };
 		E9BEEDAA26F2E97A004DAB2D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BEEDA926F2E97A004DAB2D /* SceneDelegate.m */; };
 		E9BEEDAD26F2E97A004DAB2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BEEDAC26F2E97A004DAB2D /* ViewController.m */; };
@@ -15,13 +18,16 @@
 		E9BEEDB226F2E97B004DAB2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9BEEDB126F2E97B004DAB2D /* Assets.xcassets */; };
 		E9BEEDB526F2E97B004DAB2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9BEEDB326F2E97B004DAB2D /* LaunchScreen.storyboard */; };
 		E9BEEDB826F2E97B004DAB2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BEEDB726F2E97B004DAB2D /* main.m */; };
-		E9BEEDC026F2F21A004DAB2D /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BEEDBF26F2F21A004DAB2D /* Server.m */; };
+		E9BEEDC026F2F21A004DAB2D /* ServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BEEDBF26F2F21A004DAB2D /* ServerManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D92AA628400B5BF648FE970 /* Pods-gRPC-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gRPC-OC.release.xcconfig"; path = "Target Support Files/Pods-gRPC-OC/Pods-gRPC-OC.release.xcconfig"; sourceTree = "<group>"; };
 		4B10D0EEB9B28F2470CA396C /* Pods_gRPC_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gRPC_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B51EDC53220CADAEC67250D2 /* Pods-gRPC-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gRPC-OC.debug.xcconfig"; path = "Target Support Files/Pods-gRPC-OC/Pods-gRPC-OC.debug.xcconfig"; sourceTree = "<group>"; };
+		E90E37F027058D8B00EFECAB /* featrue.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = featrue.proto; sourceTree = "<group>"; };
+		E93DF2D026FDC1EB0078D178 /* helloworld.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = helloworld.proto; sourceTree = "<group>"; };
+		E93DF2D226FDC6EC0078D178 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		E9BEEDA226F2E97A004DAB2D /* gRPC-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gRPC-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BEEDA526F2E97A004DAB2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E9BEEDA626F2E97A004DAB2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -34,8 +40,8 @@
 		E9BEEDB426F2E97B004DAB2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9BEEDB626F2E97B004DAB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9BEEDB726F2E97B004DAB2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E9BEEDBE26F2F21A004DAB2D /* Server.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
-		E9BEEDBF26F2F21A004DAB2D /* Server.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		E9BEEDBE26F2F21A004DAB2D /* ServerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerManager.h; sourceTree = "<group>"; };
+		E9BEEDBF26F2F21A004DAB2D /* ServerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +73,20 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E93DF2CF26FDC1EB0078D178 /* Protos */ = {
+			isa = PBXGroup;
+			children = (
+				E93DF2D026FDC1EB0078D178 /* helloworld.proto */,
+				E90E37F027058D8B00EFECAB /* featrue.proto */,
+			);
+			path = Protos;
+			sourceTree = "<group>";
+		};
 		E9BEED9926F2E979004DAB2D = {
 			isa = PBXGroup;
 			children = (
 				E9BEEDA426F2E97A004DAB2D /* gRPC-OC */,
+				E93DF2CF26FDC1EB0078D178 /* Protos */,
 				E9BEEDA326F2E97A004DAB2D /* Products */,
 				8ED3D8DFA6E634C194185BB8 /* Pods */,
 				834A46149A6E3508A605CE4B /* Frameworks */,
@@ -94,13 +110,14 @@
 				E9BEEDA926F2E97A004DAB2D /* SceneDelegate.m */,
 				E9BEEDAB26F2E97A004DAB2D /* ViewController.h */,
 				E9BEEDAC26F2E97A004DAB2D /* ViewController.m */,
-				E9BEEDBE26F2F21A004DAB2D /* Server.h */,
-				E9BEEDBF26F2F21A004DAB2D /* Server.m */,
+				E9BEEDBE26F2F21A004DAB2D /* ServerManager.h */,
+				E9BEEDBF26F2F21A004DAB2D /* ServerManager.m */,
 				E9BEEDAE26F2E97A004DAB2D /* Main.storyboard */,
 				E9BEEDB126F2E97B004DAB2D /* Assets.xcassets */,
 				E9BEEDB326F2E97B004DAB2D /* LaunchScreen.storyboard */,
 				E9BEEDB626F2E97B004DAB2D /* Info.plist */,
 				E9BEEDB726F2E97B004DAB2D /* main.m */,
+				E93DF2D226FDC6EC0078D178 /* 1.png */,
 			);
 			path = "gRPC-OC";
 			sourceTree = "<group>";
@@ -164,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9BEEDB526F2E97B004DAB2D /* LaunchScreen.storyboard in Resources */,
+				E93DF2D326FDC6EC0078D178 /* 1.png in Resources */,
 				E9BEEDB226F2E97B004DAB2D /* Assets.xcassets in Resources */,
 				E9BEEDB026F2E97A004DAB2D /* Main.storyboard in Resources */,
 			);
@@ -219,10 +237,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9BEEDAD26F2E97A004DAB2D /* ViewController.m in Sources */,
+				E90E37F127058D8B00EFECAB /* featrue.proto in Sources */,
 				E9BEEDA726F2E97A004DAB2D /* AppDelegate.m in Sources */,
 				E9BEEDB826F2E97B004DAB2D /* main.m in Sources */,
 				E9BEEDAA26F2E97A004DAB2D /* SceneDelegate.m in Sources */,
-				E9BEEDC026F2F21A004DAB2D /* Server.m in Sources */,
+				E93DF2D126FDC1EB0078D178 /* helloworld.proto in Sources */,
+				E9BEEDC026F2F21A004DAB2D /* ServerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,9 +1,9 @@
 PODS:
   - "!ProtoCompiler (3.15.8)":
     - Protobuf (~> 3.0)
-  - "!ProtoCompiler-gRPCPlugin (1.39.0)":
+  - "!ProtoCompiler-gRPCPlugin (1.40.0)":
     - "!ProtoCompiler (= 3.15.8)"
-    - gRPC-ProtoRPC (= 1.39.0)
+    - gRPC-ProtoRPC (= 1.40.0)
   - abseil/algorithm/algorithm (1.20210324.0):
     - abseil/base/config
   - abseil/algorithm/container (1.20210324.0):
@@ -363,25 +363,27 @@ PODS:
   - BoringSSL-GRPC/Implementation (0.0.19):
     - BoringSSL-GRPC/Interface (= 0.0.19)
   - BoringSSL-GRPC/Interface (0.0.19)
-  - gRPC-Core (1.39.0):
-    - gRPC-Core/Implementation (= 1.39.0)
-    - gRPC-Core/Interface (= 1.39.0)
-  - gRPC-Core/Implementation (1.39.0):
+  - gRPC-Core (1.40.0):
+    - gRPC-Core/Implementation (= 1.40.0)
+    - gRPC-Core/Interface (= 1.40.0)
+  - gRPC-Core/Implementation (1.40.0):
     - abseil/base/base (= 1.20210324.0)
+    - abseil/base/core_headers (= 1.20210324.0)
     - abseil/container/flat_hash_map (= 1.20210324.0)
     - abseil/container/inlined_vector (= 1.20210324.0)
     - abseil/functional/bind_front (= 1.20210324.0)
     - abseil/memory/memory (= 1.20210324.0)
     - abseil/status/status (= 1.20210324.0)
     - abseil/status/statusor (= 1.20210324.0)
+    - abseil/strings/cord (= 1.20210324.0)
     - abseil/strings/str_format (= 1.20210324.0)
     - abseil/strings/strings (= 1.20210324.0)
     - abseil/synchronization/synchronization (= 1.20210324.0)
     - abseil/time/time (= 1.20210324.0)
     - abseil/types/optional (= 1.20210324.0)
     - BoringSSL-GRPC (= 0.0.19)
-    - gRPC-Core/Interface (= 1.39.0)
-  - gRPC-Core/Interface (1.39.0)
+    - gRPC-Core/Interface (= 1.40.0)
+  - gRPC-Core/Interface (1.40.0)
   - gRPC-OC (0.0.1):
     - "!ProtoCompiler-gRPCPlugin"
     - gRPC-OC/Messages (= 0.0.1)
@@ -393,37 +395,37 @@ PODS:
     - "!ProtoCompiler-gRPCPlugin"
     - gRPC-OC/Messages
     - gRPC-ProtoRPC
-  - gRPC-ProtoRPC (1.39.0):
-    - gRPC-ProtoRPC/Legacy (= 1.39.0)
-    - gRPC-ProtoRPC/Legacy-Header (= 1.39.0)
-    - gRPC-ProtoRPC/Main (= 1.39.0)
-  - gRPC-ProtoRPC/Legacy (1.39.0):
-    - gRPC-ProtoRPC/Legacy-Header (= 1.39.0)
-    - gRPC-ProtoRPC/Main (= 1.39.0)
-    - gRPC-RxLibrary (= 1.39.0)
-    - gRPC/GRPCCore (= 1.39.0)
+  - gRPC-ProtoRPC (1.40.0):
+    - gRPC-ProtoRPC/Legacy (= 1.40.0)
+    - gRPC-ProtoRPC/Legacy-Header (= 1.40.0)
+    - gRPC-ProtoRPC/Main (= 1.40.0)
+  - gRPC-ProtoRPC/Legacy (1.40.0):
+    - gRPC-ProtoRPC/Legacy-Header (= 1.40.0)
+    - gRPC-ProtoRPC/Main (= 1.40.0)
+    - gRPC-RxLibrary (= 1.40.0)
+    - gRPC/GRPCCore (= 1.40.0)
     - Protobuf (~> 3.0)
-  - gRPC-ProtoRPC/Legacy-Header (1.39.0)
-  - gRPC-ProtoRPC/Main (1.39.0):
-    - gRPC-ProtoRPC/Legacy-Header (= 1.39.0)
-    - gRPC/Interface (= 1.39.0)
+  - gRPC-ProtoRPC/Legacy-Header (1.40.0)
+  - gRPC-ProtoRPC/Main (1.40.0):
+    - gRPC-ProtoRPC/Legacy-Header (= 1.40.0)
+    - gRPC/Interface (= 1.40.0)
     - Protobuf (~> 3.0)
-  - gRPC-RxLibrary (1.39.0):
-    - gRPC-RxLibrary/Implementation (= 1.39.0)
-    - gRPC-RxLibrary/Interface (= 1.39.0)
-  - gRPC-RxLibrary/Implementation (1.39.0):
+  - gRPC-RxLibrary (1.40.0):
+    - gRPC-RxLibrary/Implementation (= 1.40.0)
+    - gRPC-RxLibrary/Interface (= 1.40.0)
+  - gRPC-RxLibrary/Implementation (1.40.0):
     - gRPC-RxLibrary/Interface
-  - gRPC-RxLibrary/Interface (1.39.0)
-  - gRPC/GRPCCore (1.39.0):
-    - gRPC-Core (= 1.39.0)
-    - gRPC-RxLibrary (= 1.39.0)
-    - gRPC/Interface (= 1.39.0)
-    - gRPC/Interface-Legacy (= 1.39.0)
-  - gRPC/Interface (1.39.0):
-    - gRPC/Interface-Legacy (= 1.39.0)
-  - gRPC/Interface-Legacy (1.39.0):
-    - gRPC-RxLibrary/Interface (= 1.39.0)
-  - Protobuf (3.17.0)
+  - gRPC-RxLibrary/Interface (1.40.0)
+  - gRPC/GRPCCore (1.40.0):
+    - gRPC-Core (= 1.40.0)
+    - gRPC-RxLibrary (= 1.40.0)
+    - gRPC/Interface (= 1.40.0)
+    - gRPC/Interface-Legacy (= 1.40.0)
+  - gRPC/Interface (1.40.0):
+    - gRPC/Interface-Legacy (= 1.40.0)
+  - gRPC/Interface-Legacy (1.40.0):
+    - gRPC-RxLibrary/Interface (= 1.40.0)
+  - Protobuf (3.18.0)
 
 DEPENDENCIES:
   - gRPC-OC (from `.`)
@@ -446,15 +448,15 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   "!ProtoCompiler": ab1933e59740069332a2270cc82edb17c43e74cb
-  "!ProtoCompiler-gRPCPlugin": a9de95654c0eb250cd30bdf4c7e4e40ab0ebd989
+  "!ProtoCompiler-gRPCPlugin": 8c2d7b95fcb0b2e55b0086ec3c4d2ae54a45576c
   abseil: c12cac4b0b499c3335ac47ac46adf303f0618d13
   BoringSSL-GRPC: a1ddc6446c98c7a0766cd2bab41a0713e80fa7d0
-  gRPC: 9882a0cbf1a987df733aaabe8cfc5eaa754fa50a
-  gRPC-Core: 36cd647e4e4f0dd3071bf3379cf159d32e1bd690
+  gRPC: 6aff07f1454c5a3d0216085ee45641453a0fd699
+  gRPC-Core: 1f83b2d3879c6b3ae7d6fd9a93b3a05c473a6186
   gRPC-OC: b7c5b5e8e616ea806af4cbd9fcc2e33eb98baf6b
-  gRPC-ProtoRPC: 38302946e5a83613471a16e2b23fe52114314277
-  gRPC-RxLibrary: f86e60fd8f65f0d57c0de1421c1b518dfd3d9e2b
-  Protobuf: 7327d4444215b5f18e560a97f879ff5503c4581c
+  gRPC-ProtoRPC: 3874566e2aad0268c33c103bcfba6cf062a6d267
+  gRPC-RxLibrary: 12532beae7ea079792b9c0fbce4514d37d206f85
+  Protobuf: 1a37ebea1338949e9ac35a3f06e80b3f536eec8d
 
 PODFILE CHECKSUM: 70a03182e714497642b75c3a08971ee82403efa6
 
