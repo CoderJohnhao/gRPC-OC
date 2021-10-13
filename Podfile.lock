@@ -425,10 +425,12 @@ PODS:
     - gRPC/Interface-Legacy (= 1.40.0)
   - gRPC/Interface-Legacy (1.40.0):
     - gRPC-RxLibrary/Interface (= 1.40.0)
+  - Masonry (1.1.0)
   - Protobuf (3.18.0)
 
 DEPENDENCIES:
   - gRPC-OC (from `.`)
+  - Masonry
 
 SPEC REPOS:
   trunk:
@@ -440,6 +442,7 @@ SPEC REPOS:
     - gRPC-Core
     - gRPC-ProtoRPC
     - gRPC-RxLibrary
+    - Masonry
     - Protobuf
 
 EXTERNAL SOURCES:
@@ -456,8 +459,9 @@ SPEC CHECKSUMS:
   gRPC-OC: b7c5b5e8e616ea806af4cbd9fcc2e33eb98baf6b
   gRPC-ProtoRPC: 3874566e2aad0268c33c103bcfba6cf062a6d267
   gRPC-RxLibrary: 12532beae7ea079792b9c0fbce4514d37d206f85
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   Protobuf: 1a37ebea1338949e9ac35a3f06e80b3f536eec8d
 
-PODFILE CHECKSUM: 70a03182e714497642b75c3a08971ee82403efa6
+PODFILE CHECKSUM: 84a400433176152af4974e7bddd0ae4a1dccb21c
 
 COCOAPODS: 1.10.1

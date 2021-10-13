@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ClientVC">
+            <connections>
+                <outlet property="msgLabel" destination="VnL-Gy-2S1" id="jSX-i2-Gdq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SFX-ff-NEn">
+                    <rect key="frame" x="87.5" y="144" width="239" height="31"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="gray" title="发送多个坐标点，返回所有点信息"/>
+                    <connections>
+                        <action selector="sendmsg:" destination="-1" eventType="touchUpInside" id="ZTe-dP-dj3"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VnL-Gy-2S1">
+                    <rect key="frame" x="20" y="225" width="374" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="VnL-Gy-2S1" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="SYH-zd-WvK"/>
+                <constraint firstItem="SFX-ff-NEn" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="100" id="b4Q-5O-7tg"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="VnL-Gy-2S1" secondAttribute="trailing" constant="20" id="lFH-gl-6S6"/>
+                <constraint firstItem="SFX-ff-NEn" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="rbj-dx-Ndd"/>
+                <constraint firstItem="VnL-Gy-2S1" firstAttribute="top" secondItem="SFX-ff-NEn" secondAttribute="bottom" constant="50" id="sAU-Zc-5uy"/>
+            </constraints>
+            <point key="canvasLocation" x="-641" y="159"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

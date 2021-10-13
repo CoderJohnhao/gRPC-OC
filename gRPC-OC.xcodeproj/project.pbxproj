@@ -8,31 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		1D2BAAFE445D1F5596E3E230 /* Pods_gRPC_OC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B10D0EEB9B28F2470CA396C /* Pods_gRPC_OC.framework */; };
-		E90E37F127058D8B00EFECAB /* featrue.proto in Sources */ = {isa = PBXBuildFile; fileRef = E90E37F027058D8B00EFECAB /* featrue.proto */; };
 		E93DF2D126FDC1EB0078D178 /* helloworld.proto in Sources */ = {isa = PBXBuildFile; fileRef = E93DF2D026FDC1EB0078D178 /* helloworld.proto */; };
 		E93DF2D326FDC6EC0078D178 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E93DF2D226FDC6EC0078D178 /* 1.png */; };
+		E94CFDED2716C35C00779531 /* ServiceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E94CFDEB2716C35C00779531 /* ServiceVC.m */; };
+		E94CFDEE2716C35C00779531 /* ServiceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94CFDEC2716C35C00779531 /* ServiceVC.xib */; };
+		E94CFDF22716D20800779531 /* BidirectionalSteamVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E94CFDF02716D20800779531 /* BidirectionalSteamVC.m */; };
+		E94CFDF32716D20800779531 /* BidirectionalSteamVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94CFDF12716D20800779531 /* BidirectionalSteamVC.xib */; };
+		E980DDA52715331600B0604A /* ClientVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E980DDA32715331600B0604A /* ClientVC.m */; };
+		E980DDA62715331600B0604A /* ClientVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E980DDA42715331600B0604A /* ClientVC.xib */; };
+		E980DDAA2715332F00B0604A /* SimpleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E980DDA82715332F00B0604A /* SimpleVC.m */; };
+		E980DDAB2715332F00B0604A /* SimpleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E980DDA92715332F00B0604A /* SimpleVC.xib */; };
+		E9B4AC3A27166EE300F5ACE0 /* feature.proto in Sources */ = {isa = PBXBuildFile; fileRef = E9B4AC3927166EE300F5ACE0 /* feature.proto */; };
+		E9B4AC3C271674A500F5ACE0 /* route_guide_db.json in Resources */ = {isa = PBXBuildFile; fileRef = E9B4AC3B271674A500F5ACE0 /* route_guide_db.json */; };
 		E9BEEDA726F2E97A004DAB2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BEEDA626F2E97A004DAB2D /* AppDelegate.m */; };
-		E9BEEDAA26F2E97A004DAB2D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BEEDA926F2E97A004DAB2D /* SceneDelegate.m */; };
 		E9BEEDAD26F2E97A004DAB2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BEEDAC26F2E97A004DAB2D /* ViewController.m */; };
 		E9BEEDB026F2E97A004DAB2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9BEEDAE26F2E97A004DAB2D /* Main.storyboard */; };
 		E9BEEDB226F2E97B004DAB2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9BEEDB126F2E97B004DAB2D /* Assets.xcassets */; };
 		E9BEEDB526F2E97B004DAB2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9BEEDB326F2E97B004DAB2D /* LaunchScreen.storyboard */; };
 		E9BEEDB826F2E97B004DAB2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BEEDB726F2E97B004DAB2D /* main.m */; };
 		E9BEEDC026F2F21A004DAB2D /* ServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BEEDBF26F2F21A004DAB2D /* ServerManager.m */; };
+		E9FD4C8027112E2B00BD655A /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FD4C7F27112E2B00BD655A /* HomeVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D92AA628400B5BF648FE970 /* Pods-gRPC-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gRPC-OC.release.xcconfig"; path = "Target Support Files/Pods-gRPC-OC/Pods-gRPC-OC.release.xcconfig"; sourceTree = "<group>"; };
 		4B10D0EEB9B28F2470CA396C /* Pods_gRPC_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gRPC_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B51EDC53220CADAEC67250D2 /* Pods-gRPC-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gRPC-OC.debug.xcconfig"; path = "Target Support Files/Pods-gRPC-OC/Pods-gRPC-OC.debug.xcconfig"; sourceTree = "<group>"; };
-		E90E37F027058D8B00EFECAB /* featrue.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = featrue.proto; sourceTree = "<group>"; };
 		E93DF2D026FDC1EB0078D178 /* helloworld.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = helloworld.proto; sourceTree = "<group>"; };
 		E93DF2D226FDC6EC0078D178 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		E94CFDEA2716C35C00779531 /* ServiceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceVC.h; sourceTree = "<group>"; };
+		E94CFDEB2716C35C00779531 /* ServiceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServiceVC.m; sourceTree = "<group>"; };
+		E94CFDEC2716C35C00779531 /* ServiceVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServiceVC.xib; sourceTree = "<group>"; };
+		E94CFDEF2716D20800779531 /* BidirectionalSteamVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BidirectionalSteamVC.h; sourceTree = "<group>"; };
+		E94CFDF02716D20800779531 /* BidirectionalSteamVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BidirectionalSteamVC.m; sourceTree = "<group>"; };
+		E94CFDF12716D20800779531 /* BidirectionalSteamVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BidirectionalSteamVC.xib; sourceTree = "<group>"; };
+		E980DDA22715331600B0604A /* ClientVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientVC.h; sourceTree = "<group>"; };
+		E980DDA32715331600B0604A /* ClientVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientVC.m; sourceTree = "<group>"; };
+		E980DDA42715331600B0604A /* ClientVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClientVC.xib; sourceTree = "<group>"; };
+		E980DDA72715332F00B0604A /* SimpleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleVC.h; sourceTree = "<group>"; };
+		E980DDA82715332F00B0604A /* SimpleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleVC.m; sourceTree = "<group>"; };
+		E980DDA92715332F00B0604A /* SimpleVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleVC.xib; sourceTree = "<group>"; };
+		E9B4AC3927166EE300F5ACE0 /* feature.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = feature.proto; sourceTree = "<group>"; };
+		E9B4AC3B271674A500F5ACE0 /* route_guide_db.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = route_guide_db.json; sourceTree = "<group>"; };
 		E9BEEDA226F2E97A004DAB2D /* gRPC-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gRPC-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BEEDA526F2E97A004DAB2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E9BEEDA626F2E97A004DAB2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E9BEEDA826F2E97A004DAB2D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		E9BEEDA926F2E97A004DAB2D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		E9BEEDAB26F2E97A004DAB2D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E9BEEDAC26F2E97A004DAB2D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E9BEEDAF26F2E97A004DAB2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,6 +62,8 @@
 		E9BEEDB726F2E97B004DAB2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E9BEEDBE26F2F21A004DAB2D /* ServerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerManager.h; sourceTree = "<group>"; };
 		E9BEEDBF26F2F21A004DAB2D /* ServerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerManager.m; sourceTree = "<group>"; };
+		E9FD4C7E27112E2B00BD655A /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		E9FD4C7F27112E2B00BD655A /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				E93DF2D026FDC1EB0078D178 /* helloworld.proto */,
-				E90E37F027058D8B00EFECAB /* featrue.proto */,
+				E9B4AC3927166EE300F5ACE0 /* feature.proto */,
 			);
 			path = Protos;
 			sourceTree = "<group>";
@@ -106,12 +128,11 @@
 			children = (
 				E9BEEDA526F2E97A004DAB2D /* AppDelegate.h */,
 				E9BEEDA626F2E97A004DAB2D /* AppDelegate.m */,
-				E9BEEDA826F2E97A004DAB2D /* SceneDelegate.h */,
-				E9BEEDA926F2E97A004DAB2D /* SceneDelegate.m */,
-				E9BEEDAB26F2E97A004DAB2D /* ViewController.h */,
-				E9BEEDAC26F2E97A004DAB2D /* ViewController.m */,
-				E9BEEDBE26F2F21A004DAB2D /* ServerManager.h */,
-				E9BEEDBF26F2F21A004DAB2D /* ServerManager.m */,
+				E9FD4C7E27112E2B00BD655A /* HomeVC.h */,
+				E9FD4C7F27112E2B00BD655A /* HomeVC.m */,
+				E9B4AC3B271674A500F5ACE0 /* route_guide_db.json */,
+				E9FD4C8327113BDD00BD655A /* VC */,
+				E9FD4C8227113BD200BD655A /* test */,
 				E9BEEDAE26F2E97A004DAB2D /* Main.storyboard */,
 				E9BEEDB126F2E97B004DAB2D /* Assets.xcassets */,
 				E9BEEDB326F2E97B004DAB2D /* LaunchScreen.storyboard */,
@@ -120,6 +141,36 @@
 				E93DF2D226FDC6EC0078D178 /* 1.png */,
 			);
 			path = "gRPC-OC";
+			sourceTree = "<group>";
+		};
+		E9FD4C8227113BD200BD655A /* test */ = {
+			isa = PBXGroup;
+			children = (
+				E9BEEDAB26F2E97A004DAB2D /* ViewController.h */,
+				E9BEEDAC26F2E97A004DAB2D /* ViewController.m */,
+				E9BEEDBE26F2F21A004DAB2D /* ServerManager.h */,
+				E9BEEDBF26F2F21A004DAB2D /* ServerManager.m */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		E9FD4C8327113BDD00BD655A /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				E980DDA72715332F00B0604A /* SimpleVC.h */,
+				E980DDA82715332F00B0604A /* SimpleVC.m */,
+				E980DDA92715332F00B0604A /* SimpleVC.xib */,
+				E94CFDEA2716C35C00779531 /* ServiceVC.h */,
+				E94CFDEB2716C35C00779531 /* ServiceVC.m */,
+				E94CFDEC2716C35C00779531 /* ServiceVC.xib */,
+				E980DDA22715331600B0604A /* ClientVC.h */,
+				E980DDA32715331600B0604A /* ClientVC.m */,
+				E980DDA42715331600B0604A /* ClientVC.xib */,
+				E94CFDEF2716D20800779531 /* BidirectionalSteamVC.h */,
+				E94CFDF02716D20800779531 /* BidirectionalSteamVC.m */,
+				E94CFDF12716D20800779531 /* BidirectionalSteamVC.xib */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,9 +231,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E94CFDEE2716C35C00779531 /* ServiceVC.xib in Resources */,
 				E9BEEDB526F2E97B004DAB2D /* LaunchScreen.storyboard in Resources */,
+				E980DDA62715331600B0604A /* ClientVC.xib in Resources */,
+				E94CFDF32716D20800779531 /* BidirectionalSteamVC.xib in Resources */,
 				E93DF2D326FDC6EC0078D178 /* 1.png in Resources */,
+				E9B4AC3C271674A500F5ACE0 /* route_guide_db.json in Resources */,
 				E9BEEDB226F2E97B004DAB2D /* Assets.xcassets in Resources */,
+				E980DDAB2715332F00B0604A /* SimpleVC.xib in Resources */,
 				E9BEEDB026F2E97A004DAB2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,12 +292,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E94CFDED2716C35C00779531 /* ServiceVC.m in Sources */,
 				E9BEEDAD26F2E97A004DAB2D /* ViewController.m in Sources */,
-				E90E37F127058D8B00EFECAB /* featrue.proto in Sources */,
 				E9BEEDA726F2E97A004DAB2D /* AppDelegate.m in Sources */,
+				E9B4AC3A27166EE300F5ACE0 /* feature.proto in Sources */,
 				E9BEEDB826F2E97B004DAB2D /* main.m in Sources */,
-				E9BEEDAA26F2E97A004DAB2D /* SceneDelegate.m in Sources */,
+				E980DDAA2715332F00B0604A /* SimpleVC.m in Sources */,
+				E9FD4C8027112E2B00BD655A /* HomeVC.m in Sources */,
+				E980DDA52715331600B0604A /* ClientVC.m in Sources */,
 				E93DF2D126FDC1EB0078D178 /* helloworld.proto in Sources */,
+				E94CFDF22716D20800779531 /* BidirectionalSteamVC.m in Sources */,
 				E9BEEDC026F2F21A004DAB2D /* ServerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

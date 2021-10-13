@@ -7,5 +7,7 @@ target 'gRPC-OC' do
 
   pod 'gRPC-OC', :path => '.'
   # Pods for gRPC-OC
+  
+  pod 'Masonry'
 
 end
